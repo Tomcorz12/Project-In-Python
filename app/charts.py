@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 
-def generateBarChart(labels, values):
+def generateBarChart(name, labels, values):
     fig, ax = plt.subplots()
     ax.bar(labels, values)
-    plt.savefig('bar.png')
+    plt.savefig(f'./imgs/{name}.png')
     plt.close()
     
     
