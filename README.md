@@ -13,7 +13,8 @@ Se agregaron los archivos faltantes para poder seguir con el curso
 ```sh
 git clone
 cd app
-MyAppEnv\Scripts\activate (For windows users) source MyAppEnv/bin/activate (for Linux)
+python3 -m venv MyAppEnv
+MyAppEnv\Scripts\activate (For cmd) source MyAppEnv/bin/activate (for Linux)
 pip3 install -r requirements.txt
 python3 main.py
 ```
