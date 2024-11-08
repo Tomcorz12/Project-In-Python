@@ -18,3 +18,12 @@ MyAppEnv\Scripts\activate (For cmd) source MyAppEnv/bin/activate (for Linux)
 pip3 install -r requirements.txt
 python3 main.py
 ```
+
+# Steps para WebServer
+```sh
+cd WebServer
+python3 -m venv MyWebServerEnv
+MyWebServerEnv\Scripts\activate (For cmd) source MyWebServerEnv/bin/activate (for Linux)
+pip3 install -r requirements.txt
+uvicorn main:app --reload
+```
